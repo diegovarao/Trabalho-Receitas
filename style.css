@@ -1,0 +1,147 @@
+/* style.css */
+
+/* Estilos gerais para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /*  família de fontes padrão */
+    margin: 0; /*  margens padrão */
+    padding: 0; /*  preenchimentos padrão */
+    background-color: #FFA500; /* Cor de fundo laranja */
+    color: #333; /* Cor do texto */
+    overflow-y: auto; /*  overflow-y automático para a área principal */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #f2f2f2; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Configuração de layout flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Distribui os itens horizontalmente com espaço entre eles */
+    height: 60px; /* Altura do cabeçalho */
+}
+
+/* Estilos para o logotipo */
+.logo img {
+    width: 50px; /* Largura do logotipo */
+    height: 50px; /* Altura do logotipo */
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style-type: none; /*  marcadores de lista */
+    margin: 0; /*  margens padrão */
+    padding: 0; /*  preenchimentos padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de lista em linha */
+    margin-right: 20px; /* Espaçamento entre os itens de lista */
+}
+
+nav ul li a.active {
+    font-weight: bold; /*  peso da fonte para o link ativo */
+}
+
+nav ul li a {
+    color: black; /* Alterando a cor do texto do menu para preto */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+    min-height: calc(100vh - 100px); /* Altura mínima da área principal */
+}
+
+/* Estilos para a seção de boas-vindas */
+.welcome {
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    height: 25px; /* Altura do rodapé */
+}
+
+/* receitas.css */
+
+/* Estilos para a seção de receitas */
+.receitas {
+    padding: 20px; /* Espaçamento interno */
+    overflow-y: auto; /* Adiciona overflow-y automático */
+    max-height: calc(100vh - 200px); /* Altura máxima com margens para cabeçalho e rodapé */
+}
+
+/* Estilos para o painel de cada receita */
+.painel-receita {
+    width: 200px; /* Largura do painel */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.painel-receita img {
+    width: 150px; /* Largura da imagem */
+    border-top-left-radius: 5px; /* Borda arredondada superior esquerda */
+    border-top-right-radius: 5px; /* Borda arredondada superior direita */
+}
+
+.painel-receita .card-body {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.painel-receita .card-title {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+}
+
+.painel-receita .card-text {
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+.painel-receita .card hr {
+    margin: 10px 0; /* Espaçamento entre as linhas */
+}
+
+/* Estilos adicionais */
+
+/* Estilos para organizar as cartas de receita em várias colunas */
+.card-columns {
+    column-count: 3; /* Organiza as cartas em 3 colunas */
+    column-gap: 20px; /* Espaçamento entre as colunas */
+}
+
+/* Estilos para a carta de receita */
+.card {
+    margin-bottom: 20px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda sólida com cor cinza */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.card img {
+    width: 100%; /* Largura da imagem */
+    border-top-left-radius: 5px; /* Borda arredondada superior esquerda */
+    border-top-right-radius: 5px; /* Borda arredondada superior direita */
+}
+
+.card-body {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.card-title {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+}
+
+.card-text {
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+.card hr {
+    margin: 10px 0; /* Espaçamento entre as linhas */
+}
